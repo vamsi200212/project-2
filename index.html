@@ -84,7 +84,17 @@
             background-size: cover;
             background-position: top;
         }
-
+         
+        li a::after{
+            content:'';
+            height:4px;
+            background-color:#fff;
+            transition:0.5s;
+        }
+        li a::after:hover{
+            width:100%;
+            background-color:orange;
+        }
         
     </style>
 </head>
