@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery | Jr.NTR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+          border-sizing:border-box;
+        }
+        ul{
+            display: flex;
+        }
+        ul li a{
+            text-transform: uppercase;
+            font-size: 16px;
+            padding: 20px;
+            display: flex;
+            text-decoration-line: none;
+            color: rgb(255, 179, 0);
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+          
+        }
+        ul li a:hover{
+            text-transform: uppercase;
+            font-size: 18px;
+            color:#fff;
+            text-shadow:2px 2px 4px rgb(255, 179, 0);
+        }
+        .Name{
+            color: white;
+            padding: 20px;
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Bebas Neue', cursive;
+        }
+        .about{
+            color: white;
+            padding: 20px;
+            line-height: 30px;
+            /* text-transform: capitalize; */
+            /* display: inline; */
+            /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+            font-family: 'Open Sans', sans-serif; 
+            text-justify: distribute-all-lines;       
+        }
+        .name{
+            /* text-align: center top; */
+            color: white;
+            letter-spacing: 5px;
+        }
+        .footer{
+            background-color: rgb(29, 27, 27);
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            text-align: center; 
+            font-size: 10px;
+            padding: 15px; 
+            letter-spacing: 6px;
+            text-transform: uppercase;
+        }
+        /* .img{
+            height: 400px;
+            position: relative;
+            align-items: center;
+            color: white;
+        } */ 
+
+        /* .imgDiv{
+            text-align: center;
+            height: 400px;
+            /* background-color: aqua; */
+            /* position: absolute; */
+            /* background-color: aqua; */
+        /* } */
+        }
+         li a{
+             position:relative;
+        }
+        li a::after{
+            content:'';
+            width:0;
+            height:3px;
+            background-color:#fff;
+            transition:0.5s;
+            position:absolute;
+            top:50px;
+            border-radius:4px;
+        }
+        li a:hover::after{
+            width:60%;
+            background-color:orange;
+            border-radius:4px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Filmography</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section><h1 class="Name">Gallery</h1>
+            <p class="about">
+            Jr. NTR, also known as N. T. Rama Rao Jr., is a popular Indian film actor and a Kuchipudi dancer. He was born on May 20, 1983, in Hyderabad, India, into a family of actors. His grandfather, N.T. Rama Rao, was a legendary actor and former Chief Minister of Andhra Pradesh, and his father, Nandamuri Harikrishna, was also a well-known actor and politician.
+
+Jr. NTR made his acting debut in 2001 with the film "Ninnu Choodalani," but he gained widespread recognition with his performance in the film "Student No. 1" in 2001. He has acted in over 30 films, including hits like "Simhadri," "Yamadonga," "Adhurs," "Temper," and "Aravinda Sametha Veera Raghava." He is known for his intense and versatile performances and has won several awards for his work, including four Nandi Awards, two Filmfare Awards South, and a CineMAA Award.
+
+Apart from acting, Jr. NTR is also a trained Kuchipudi dancer and has performed in several stage shows. He is also involved in various charitable activities, including supporting children with cancer and contributing to disaster relief efforts.
+
+Jr. NTR is married to Lakshmi Pranathi, and they have two children. He enjoys a massive fan following, especially in the Telugu-speaking states of Andhra Pradesh and Telangana.
+            </p>
+        </section>
+        <section class="mainImg">
+            <!-- <img src="/Project-5/images/ntr-2.jpg" class="actual"> -->
+        </section>
+    </main>
+    <footer class="footer">
+        &copy;Copyright, Kanuri Teja Sai Vamsi
+    </footer>
+</body>
+</html>
