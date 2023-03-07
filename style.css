@@ -3,6 +3,10 @@
             padding: 0;
             background-color: black;
         }
+        .navBar{
+            width: 100vw;
+            height:7vh;
+        }
         ul{
             display: flex;
         }
